@@ -46,7 +46,7 @@ namespace StoreApp.Bill
                 return;
             }
 
-            // Lấy thông tin từ các TextBox
+            // Lấy thông tin từ các TextBox 
             string tenSP = txtTenSP.Text;
             string maKH = txtMaKH.Text;
             string diaChi = txtDiaChi.Text;
@@ -61,6 +61,11 @@ namespace StoreApp.Bill
 
             // Hiển thị thông tin hóa đơn
             lblResult.Text = "Thông tin hóa đơn:\n" + hoaDon.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using StoreApp.Bill;
+using StoreApp.NCC;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,8 +27,13 @@ namespace StoreApp
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FormHoaDon formHoaDon = new FormHoaDon();
-            formHoaDon.ShowDialog();
+            NhaCungCapForm nhacungcapform = new NhaCungCapForm();
+            nhacungcapform.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
