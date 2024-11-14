@@ -23,5 +23,11 @@ namespace StoreApp
             FormHoaDon formHoaDon = new FormHoaDon();
             formHoaDon.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormHoaDon formHoaDon = new FormHoaDon();
+            formHoaDon.ShowDialog();
+        }
     }
 }
